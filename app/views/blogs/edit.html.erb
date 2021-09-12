@@ -9,3 +9,11 @@
   <%= f.text_area :body %>
   <%= f.submit '保存' %>
 <% end %>
+
+
+
+
+
+validates :title, presence: true
+  validates :category, presence: true
+  validates :body, presence: true
